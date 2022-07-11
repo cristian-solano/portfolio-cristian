@@ -10,33 +10,48 @@
     <link rel="shortcut icon" href="./img/ca.png">
 </head>
 <body>
-  <header class=" header">
-      <div class="menu">
-          <div class="language">
-            <i class='bx bx-circle'></i><i class='bx bxs-circle' ></i>
-              <span><a href="./index.html">English</a></span>
-          </div>
-          <ul class="nav-menu">
-              <li ><a href="#home" class="link">INICIO</a></li>
-              <li ><a href="#about">ACERCA DE MI</a></li>
-              <li ><a href="#web">PORTAFOLIO</a></li>
-              <li ><a href="#contact">CONTACTO</a></li>
-          </ul>
-      </div>
-  </header>
-  <section class="home" id="home">
-      <article class="content">
-        <div class="info">
-                <h1 class="title big-medium-size fw color">DESARROLLADOR WEB</h1>
-                <p class="medium-size fw">Front-end & Back-end</p>
-                <p class="medium-size fw">Diseñador de Paginas Web</p>
+    <nav class="nav">
+
+        <div class="nav_container">
+            <div class="nav_logo">
+                <button class="darkModeSwitch" id="switch">
+                    <span><i class='bx bxs-moon'></i></span>
+                    <span><i class='bx bx-sun'></i></span>
+                </button>
+                <span><a href="./index.html"><img src="./img/reino-unido.png" alt="english"></a></span>
+            </div>
+            
+            <label for="menu" class="nav_label">
+                <i class='bx bx-menu'></i>
+            </label>
+            <input type="checkbox" id="menu" class="nav_input">
+
+            <div class="nav_menu">
+                <a href="#home" class="nav_item">Inicio</a>
+                <a href="#about" class="nav_item">Acerca de mi</a>
+                <a href="#web" class="nav_item">Portafolio</a>
+                <a href="#contact" class="nav_item">Contacto</a>
+                <a href="#services" class="nav_item">Servicios</a>
+            </div>
+            
         </div>
-        <article class="monitor">
-            <img src="./img/computadora3.png" alt="Computer photo" class="image">
-        </article>
+    </nav>
+  <section class="home" id="home">
+    <article class="content">
+        <div class="info">
+            <h1 class="title big-size c-white fw"><a href="#services">DESARROLLADOR WEB</a></h1>
+            <p class="medium-size fw c-white subtitle">Front-end & Back-end</p>
+            <p class="medium-size fw c-white subtitle">Diseñador de Paginas Web</p>
+        </div>
+    </article>
+    <article class="monitor">
+        <img src="./img/profile.png" alt="perfil" class="image">
     </article>
      
   </section>
+   <!-- <h1 class="title big-medium-size fw color">DESARROLLADOR WEB</h1>
+                <p class="medium-size fw">Front-end & Back-end</p>
+                <p class="medium-size fw">Diseñador de Paginas Web</p> -->
   <section class="about" id="about">
     
         <div class="content">
@@ -55,12 +70,13 @@
             <span class="border-bo">¿Cualés son mis mejores habilidades?</span>
             <br><br>
             <ul>
-                <li class="p-gen">Creatividad</li>
-                <li class="p-gen">Innovacion</li>
-                <li class="p-gen">Pensamiento critico</li>
-                <li class="p-gen">Trabajo en equipo</li>
-                <li class="p-gen">Responsabilidad</li>
-                <li class="p-gen">Comunicación asertiva</li>
+                <li class="p-gen">LIDERAZGO</li>
+                <li class="p-gen">CREATIVIDAD</li>
+                <li class="p-gen">INNOVACIÓN</li>
+                <li class="p-gen">PENSAMIENTO CRITICO</li>
+                <li class="p-gen">TRABAJO EN EQUIPO</li>
+                <li class="p-gen">RESPONSABILIDAD</li>
+                <li class="p-gen">COMUNICACION ASERTIVA</li>
             </ul>
             
         </div>
@@ -77,112 +93,147 @@
         </div>
   </section>
   <section class="web" id="web">
-    <h3 class="c-white p-gen">Web portfolio</h3>
-    <span class="p-gen">Technical Knowledge and Jobs</span>
+    <h3 class="c-white p-gen">Portafolio</h3>
+    <span class="p-gen">Trabajos y conocimiento</span>
     <br><br>
     
     <div class="card">
         <div class="target">
-            <img src="./img/inst.png" alt="proyecto">
+            <img src="./img/weather.png" alt="proyecto">
             <div class="data">
-            <h3 class="p-gen">Pagina Web Instagram</h3>
-            <p>Ejercicio educativo en Academlo realizado en el mes de febrero.</p>
+            <h3 class="p-gen">Pagina Web del Clima</h3>
+            <p>Ejercicio educativo en Academlo realizado en el mes de Abril, Utilizando la Api de Openweather.</p>
             <br>
-            <a href="https://instagramer-cris.netlify.app" class="p-left">Enlace Pagina web / 390px / No Responsive</a>
+            <a href="https://weatherapp-cris.netlify.app/" class="p-left">Enlace Pagina web / No Responsive</a>
             </div>
-            <p class="overlay-img overlayBottom"><span class="text-port">
-                HTML, CSS - 24-02-22
-            </span>
-            </p>
             
         </div>
         <div class="target">
-            <img src="./img/sanslogo.png" alt="proyecto">
+            <img src="./img/quotes.png" alt="proyecto">
             <div class="data">
-            <h3 class="p-gen">Pagina Web Peluquería</h3>
-            <p>Ejercicio practico realizado en el mes de octubre- noviembre del 2021.</p>
+            <h3 class="p-gen">Citas y Autores</h3>
+            <p>Ejercicio práctico con React y sus hooks. Primer proyecto de reacción.</p>
             <br>
-            <a href="#" class="p-left">Enlace de pagina web / Responsive</a>
+            <a href="https://quotes-cris.netlify.app/" class="p-left">Enlace de pagina web / Responsive</a>
             </div>
             <p class="overLayBottom"></p>
             <span class="text-port"></span>
         </div>
         <div class="target">
-            <img src="./img/x.png" alt="proyecto">
+            <img src="./img/crud.png" alt="proyecto">
             <div class="data">
-            <h3 class="p-gen">Pagina Web X</h3>
-            <p>Ejercicio educativo en Academlo realizado en el mes de febrero.</p>
+            <h3 class="p-gen">CRUD</h3>
+            <p>Ejercicio educativo en Academlo realizado en el mes de Mayo.</p>
             <br>
-            <a href="https://instagramer-cris.netlify.app" class="p-left">Enlace Pagina web / Responsive</a>
+            <a href="https://form-react-2022.netlify.app/" class="p-left">Enlace Pagina web / Responsive</a>
             </div>
         </div>
         <div class="target">
-            <img src="./img/sas.png" alt="proyecto">
+            <img src="./img/ecommerce.png" alt="proyecto">
             <div class="data">
-            <h3 class="p-gen">Pagina Web Instagram</h3>
-            <p>Ejercicio educativo en Academlo realizado en el mes de febrero.</p>
+            <h3 class="p-gen">E-commerce</h3>
+            <p>Ejercicio final de React en Academlo realizado en el mes de Junio.</p>
             <br>
-            <a href="https://instagramer-cris.netlify.app" class="p-left">Enlace Pagina web / Responsive</a>
+            <a href="https://e-commerce-accesories.netlify.app/login" class="p-left">Enlace Pagina web / Responsive</a>
             </div>
         </div>
         
     </div>
     </div> 
   </section>
-  <section class="contact" id="contact">
-    <div class="content-contact">
-        <div class="strength">
-            <div class="front">
-                <span class="p-gen big-medium-size"><i class='bx bx-code-alt'></i>Desarrollador Front-End</span>
-                
-                <ul class="medium-size c-d24816">
-                    <li>html5</li>
-                    <li>Css3, Flexbox, Css Grid</li>
-                    <li>Javascript</li>
-                    <li>React</li>
-                    <li>Responsive Web Design</li>
-                    <li>Framework: Bootstrap 4</li>
-                    <li>Version Control: git/GitHub</li>
-                </ul>
-            </div>
-            <div class="back">
-                
-                <span class="p-gen big-medium-size"><i class='bx bx-folder-minus'></i>Desarrollador Back-End</span>
-                <ul class="medium-size c-d24816">
-                    <li>Node.js</li>
-                    <li>Data Base sql</li>
-                    <li>Python</li>
-                    <li>Framework: Django</li>
-                </ul>
-            </div>
-            <div class="cv">
-                <button class="button"><a href="./pdf/Cristian Solano 2022.pdf">Download CV</a></button>
-            </div>
+  <section class="services" id="services">
+    
+    <div class="container">
+       
+        <div class="web-page">
+            <h4>DISEÑO DE PAGINAS WEB</h4>
+            <p>
+                Desarrollo completo de paginas web para empresas 
+                o blogs personales.</p>
         </div>
-
-        <div class="photo">
-            <img src="./img/perfil.jpeg" alt="">
-            <div class="information">
-                <p>Cristian Andres Solano</p>
-                <p>cristiansolano1941@gmail.com</p>
-                <p>(+57) 3014088482</p>
+        <div class="layout">
+            <h4>MAQUETACION CON CSS</h4>
+            <p>
+                Diseñador de páginas web a gusto del cliente,
+                diseños ajustados también para teléfono móvil
+            </p>
         </div>
+        <div class="react">
+            <h4>CONOCIMIENTO DE REACT</h4>
+            <p>                
+            Diseño de página web con react y
+            componentes reducidos</p>
+        </div>
+        <div class="postgres">
+            <h4>POSTGRESQL</h4>
+            <p>
+            Diseño de base de datos con postgres y ejecutado
+            en el backend con node </p>
+        </div>
+        <div class="bootstrap">
+            <h4>USO DE BOOTSTRAP</h4>
+            <p>
+            Conocimiento del framework bootstrap,
+            para la implementación de diseños responsivos</p>
+        </div>
+        <div class="node">
+            <h4>DEISEÑO DE API'S</h4>
+            <p>
+                Conocimiento en desarrollo de apis con Node</p>
         </div>
     </div>
   </section>
+  <section class="contact" id="contact">
+    <div class="content-contact">
+        <div class="photo">
+            <img src="./img/FrontPict.png" alt="front">
+            <div class="information">
+                <p><i class='bx bx-user bx-tada bx-flip-horizontal' ></i>Cristian Andrés Solano Maldonado</p>
+                <p><i class='bx bx-envelope bx-tada bx-flip-horizontal' ></i>cristiansolano1941@gmail.com</p>
+                <p><i class='bx bx-phone bx-tada bx-flip-horizontal' ></i>(+57) 301-408-8482</p>
+                <p><i class='bx bxs-location-plus bx-spin bx-rotate-180' ></i>Bogotá, Colombia</p>
+            </div>
+        </div>
+        <div class="strength">
+            <div class="front">
+                <span class="c-beige big-medium-size"><i class='bx bx-code-alt'></i>Conocimiento Front-End</span>
+                <ul class="medium-size c-d24816">
+                    <li><i class='bx bxl-html5  f-large' ></i></li>
+                    <li><i class='bx bxl-css3  f-large' ></i></li>
+                    <li><i class='bx bxl-javascript  f-large' ></i></li>
+                    <li><i class='bx bxl-react  f-large' ></i></li>
+                    <li><i class='bx bxl-bootstrap  f-large' ></i></li>
+                    <li><i class='bx bxl-github  f-large' ></i></li>
+                </ul>
+            </div>
+            <div class="back">
+                <span class="c-beige big-medium-size"><i class='bx bx-folder-minus'></i>Conocimiento Back-End</span>
+                <ul class="my-staff medium-size c-d24816">
+                    <li><i class='bx bxl-nodejs  f-large' ></i></li>
+                    <li><i class='bx bxl-postgresql  f-large' ></i></li>
+                    <li><i class='bx bxl-python  f-large' ></i></li>
+                    <li><i class='bx bxl-django  f-large' ></i></li>
+                </ul>
+            </div>
+        </div>
+        <div class="cv">
+            <button class="button"><a href="./pdf/Cristian Solano Frontend DWF.pdf">Descargar CV</a></button>
+        </div>
+
+        
+    </div>
+  </section>
   <footer class="footer">
-      <h4 class="c-white small-size bc-aquamarine">Redes Sociales</h4>
-      <ul class="social">
-          <li><a href="https://wa.me/+573014088482?text=¡Estoy+interesado!" target="_blank"><i class='w-big bx bxl-whatsapp bc-aquamarine color'></i></a></li>
-          <li><a href="https://www.facebook.com/nameandres"><i class='bx bxl-facebook-circle bc-aquamarine color'></i></a></li>
-          <li><a href="https://www.instagram.com/andresmald19/"><i class='bx bxl-instagram bc-aquamarine color'></i></a></li>
-          <li><a href="https://www.linkedin.com/in/cristian-andres-solano-maldonado-0707881b4"><i class='bx bxl-linkedin bc-aquamarine color'></i></a></li>
-          <li><a href="https://wa.me/+573014088482?text=¡Estoy+interesado!"><i class='bx bx-phone bc-aquamarine color'></i></a></li>
-      </ul>
-      <p class="small-size bc-aquamarine">Cristian Andrés Solano - Desarrollador Web</p>
-
-  </footer>
-
+    <h4 class="c-white small-size ">Redes Sociales</h4>
+    <ul class="social">
+        <li><a href="https://wa.me/+573014088482?text=¡Estoy+interesado!"><i class='bx bxl-whatsapp color'></i></a></li>
+        <li><a href="https://github.com/cristian-solano"><i class='bx bxl-github'></i></a></li>
+        <li><a href="https://www.linkedin.com/in/cristian-andres-solano-maldonado-0707881b4"><i class='bx bxl-linkedin color'></i></a></li>
+        <li><a href="https://wa.me/+573014088482?text=¡Estoy+interesado!"><i class='bx bx-phone color'></i></a></li>
+    </ul>
+    <p class="small-size c-white">Cristian Andrés Solano | Web Developer</p>
+</footer>
+<script src="./js/main.js"></script>
   
 
    

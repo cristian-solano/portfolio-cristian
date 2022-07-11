@@ -10,34 +10,46 @@
     <link rel="shortcut icon" href="./img/ca.png">
     
 </head>
-<body>
-  <header class=" header">
-      <div class="menu">
-          <div class="language">
-            <i class='bx bx-circle'></i><i class='bx bxs-circle' ></i>
-              <span><a href="./indexEn.html">Español</a></span>
-          </div>
-          <nav class="nav menu">
-            <ul class="nav-menu">
-                <li ><a href="#home" class="link">HOME</a></li>
-                <li ><a href="#about">ABOUT ME</a></li>
-                <li ><a href="#web">WEB PORTFOLIO</a></li>
-                <li ><a href="#contact">CONTACT</a></li>
-            </ul>
-          </nav>
-      </div>
-  </header>
+<body> 
+    <nav class="nav">
+
+        <div class="nav_container">
+            <div class="nav_logo">
+                <button class="darkModeSwitch" id="switch">
+                    <span><i class='bx bxs-moon'></i></span>
+                    <span><i class='bx bx-sun'></i></span>
+                </button>
+                <span><a href="./indexEn.html"><img src="./img/espana.png" alt="español"></a></span>
+            </div>
+
+            <label for="menu" class="nav_label">
+                <i class='bx bx-menu'></i>
+            </label>
+            <input type="checkbox" id="menu" class="nav_input">
+
+            <div class="nav_menu">
+                <a href="#home" class="nav_item">Home</a>
+                <a href="#about" class="nav_item">About me</a>
+                <a href="#web" class="nav_item">Portfolio</a>
+                <a href="#contact" class="nav_item">Contact</a>
+                <a href="#services" class="nav_item">Services</a>
+                
+            </div>
+            
+        </div>
+    </nav>
   <section class="home" id="home">
       <article class="content">
         <div class="info">
-                <h1 class="title big-size fw color">WEB DEVELOPER</h1>
-                <p class="medium-size fw c-white">Front-end & Back-end</p>
-                <p class="medium-size fw c-white">Web-page design</p>
+                <h1 class="title big-size c-white fw"><a href="#services">WEB DEVELOPER</a></h1>
+                <p class="medium-size fw c-white subtitle">Front-end & Back-end</p>
+                <p class="medium-size fw c-white subtitle">Web-page design</p>
         </div>
-        <article class="monitor">
-            <img src="./img/computadora3.png" alt="Computer photo" class="image">
-        </article>
-    </article>
+      </article>
+      <article class="monitor">
+        <img src="./img/profile.png" alt="perfil" class="image">
+      </article>
+    
      
   </section>
 
@@ -60,23 +72,24 @@
             <span class="border-bo">What are my best skills?</span>
             <br><br>
             <ul>
-                <li class="p-gen">creativity</li>
-                <li class="p-gen">innovation</li>
-                <li class="p-gen">critical thinking</li>
-                <li class="p-gen">teamwork</li>
-                <li class="p-gen">responsibility</li>
-                <li class="p-gen">assertive communication</li>
+                <li class="">LEADERSHIP</li>
+                <li class="">CREATIVITY</li>
+                <li class="">INNOVATION</li>
+                <li class="">CRITICAL THINKING</li>
+                <li class="">TEAMWORK</li>
+                <li class="">RESPONSABILITY</li>
+                <li class="">ASSERTIVE COMMUNICATION</li>
             </ul>
         </div>
         <div class="content-tech">
-            <h3 class="p-bottom">Habilidades tecnicas</h3>
+            <h3 c>Technical skills</h3>
             <span class="border-bo">Lenguajes de Programación</span>
             <br><br>
             <div class="lang">
                 <div><img src="./img/js.png" alt="JS"></div>
                 <div><img src="./img/html.png" alt="HTML5"></div>
                 <div><img src="./img/css.png" alt="CSS3" ></div>
-                <div><img src="./img/python.png" alt="PYTHON"></div>
+                <div><img src="./img/react.png" alt="REACT"></div>
             </div>
         </div>
   </section>    
@@ -86,104 +99,144 @@
         <br><br>
         <div class="card">
             <div class="target">
-                <img src="./img/inst.png" alt="proyecto">
+                <img src="./img/weather.png" alt="proyecto">
                 <div class="data">
-                <h3 class="p-gen">Instagram Web site</h3>
-                <p>Educational exercise in Academlo carried out in the month of February.</p>
+                <h3 class="p-gen">Weather Api</h3>
+                <p>Educational exercise in Academlo carried out in the month of Abril. I used Openweather api.</p>
                 <br>
-                <a href="https://instagramer-cris.netlify.app" class="p-left">Web page Link / 390px / No Responsive</a>
-                </div>
-                <p class="overlay-img overlayBottom"><span class="text-port">
-                    HTML, CSS - 24-02-22
-                </span>
-                </p>
-                
-            </div>
-            <div class="target">
-                <img src="./img/sanslogo.png" alt="proyecto">
-                <div class="data">
-                <h3 class="p-gen">Hairdressing Web Site</h3>
-                <p>Practical exercise carried out in the month of October-November 2021.</p>
-                <br>
-                <a href="#" class="p-left">Web Page Link / Responsive</a>
-                </div>
-                
-            </div>
-            <div class="target">
-                <img src="./img/x.png" alt="proyecto">
-                <div class="data">
-                <h3 class="p-gen">X Web Site</h3>
-                <p>Educational exercise in Academlo carried out in the month of February.</p>
-                <br>
-                <a href="https://instagramer-cris.netlify.app" class="p-left">Web Page Link / Responsive</a>
+                <a href="https://weatherapp-cris.netlify.app/" class="p-left">Web page Link / No Responsive</a>
                 </div>
             </div>
             <div class="target">
-                <img src="./img/sas.png" alt="proyecto">
+                <img src="./img/quotes.png" alt="proyecto">
                 <div class="data">
-                <h3 class="p-gen">Y Web Site</h3>
-                <p>Educational exercise in Academlo carried out in the month of February.</p>
+                <h3 class="p-gen">Quotes and Authors</h3>
+                <p>Practical exercise with React and its hooks. First React project </p>
                 <br>
-                <a href="https://instagramer-cris.netlify.app" class="p-left">Web Page Link / Responsive</a>
+                <a href="https://quotes-cris.netlify.app/" class="p-left">Web Page Link / Responsive</a>
+                </div>
+            </div>
+            <div class="target">
+                <img src="./img/crud.png" alt="proyecto">
+                <div class="data">
+                <h3 class="p-gen">CRUD</h3>
+                <p>Educational exercise in Academlo carried out in the month of May.</p>
+                <br>
+                <a href="https://form-react-2022.netlify.app/" class="p-left">Web Page Link / Responsive</a>
+                </div>
+            </div>
+            <div class="target">
+                <img src="./img/ecommerce.png" alt="proyecto">
+                <div class="data">
+                <h3 class="p-gen">E-commerce</h3>
+                <p>Final front-End exercise in Academlo carried out in the month of June.</p>
+                <br>
+                <a href="https://e-commerce-accesories.netlify.app/login" class="p-left">Web Page Link / Responsive</a>
                 </div>
             </div>
             
         </div>
         </div> 
   </section>
-  <section class="contact" id="contact">
-    <div class="content-contact">
-        <div class="strength">
-            <div class="front">
-                <span class="p-gen big-medium-size"><i class='bx bx-code-alt'></i>Front-End Developtment</span>
-                
-                <ul class="medium-size c-d24816">
-                    <li>html5</li>
-                    <li>Css3, Flexbox, Css Grid</li>
-                    <li>Javascript</li>
-                    <li>React</li>
-                    <li>Responsive Web Design</li>
-                    <li>Framework: Bootstrap 4</li>
-                    <li>Version Control: git/GitHub</li>
-                </ul>
-            </div>
-            <div class="back">
-                
-                <span class="p-gen big-medium-size"><i class='bx bx-folder-minus'></i>Back-End Developmet</span>
-                <ul class="medium-size c-d24816">
-                    <li>Node.js</li>
-                    <li>Data Base sql</li>
-                    <li>Python</li>
-                    <li>Framework: Django</li>
-                </ul>
-            </div>
-            <div class="cv">
-                <button class="button"><a href="./pdf/Cristian Solano 2022.pdf">Download CV</a></button>
-            </div>
+  
+  <section class="services" id="services">
+    
+    <div class="container">
+       
+        <div class="web-page">
+            <h4>DESIGN WEB PAGE</h4>
+            <p>
+                Development of complete pages for companies 
+                and personal blogs</p>
         </div>
-
-        <div class="photo">
-            <img src="./img/perfil.jpeg" alt="">
-            <div class="information">
-                <p>Cristian Andres Solano</p>
-                <p>cristiansolano1941@gmail.com</p>
-                <p>(+57) 3014088482</p>
+        <div class="layout">
+            <h4>LAYOUT CSS</h4>
+            <p>
+                Web page designer to suit the client, 
+                adjusted designs also for mobile phone
+            </p>
         </div>
+        <div class="react">
+            <h4>REACT KNOWLEDGE</h4>
+            <p>
+                Web page design with react and 
+                redux components</p>
+        </div>
+        <div class="postgres">
+            <h4>POSTGRESQL</h4>
+            <p>
+               Database design with postgres and executed 
+               in the backend with node </p>
+        </div>
+        <div class="bootstrap">
+            <h4>USE BOOTSTRAP</h4>
+            <p>
+                Management of the bootstrap framework, 
+                for the management of responsive designs</p>
+        </div>
+        <div class="node">
+            <h4>DESIGN API'S</h4>
+            <p>
+                Knowledge in apis development with Node</p>
         </div>
     </div>
   </section>
-  <footer class="footer">
-      <h4 class="c-white small-size bc-aquamarine">Social Media</h4>
-      <ul class="social">
-          <li><a href="https://wa.me/+573014088482?text=¡Estoy+interesado!" target="_blank"><i class='w-big bx bxl-whatsapp bc-aquamarine color'></i></a></li>
-          <li><a href="https://www.facebook.com/nameandres"><i class='bx bxl-facebook-circle bc-aquamarine color'></i></a></li>
-          <li><a href="https://www.instagram.com/andresmald19/"><i class='bx bxl-instagram bc-aquamarine color'></i></a></li>
-          <li><a href="https://www.linkedin.com/in/cristian-andres-solano-maldonado-0707881b4"><i class='bx bxl-linkedin bc-aquamarine color'></i></a></li>
-          <li><a href="https://wa.me/+573014088482?text=¡Estoy+interesado!"><i class='bx bx-phone bc-aquamarine color'></i></a></li>
-      </ul>
-      <p class="small-size bc-aquamarine">Cristian Andrés Solano | Web Developer</p>
+  <section class="contact" id="contact">
+        <div class="content-contact">
+            <div class="photo">
+                <img src="./img/FrontPict.png" alt="front">
+                <div class="information">
+                    <p><i class='bx bx-user bx-tada bx-flip-horizontal' ></i>Cristian Andrés Solano Maldonado</p>
+                    <p><i class='bx bx-envelope bx-tada bx-flip-horizontal' ></i>cristiansolano1941@gmail.com</p>
+                    <p><i class='bx bx-phone bx-tada bx-flip-horizontal' ></i>(+57) 301-408-8482</p>
+                    <p><i class='bx bxs-location-plus bx-spin bx-rotate-180' ></i>Bogotá, Colombia</p>
+                </div>
+            </div>
+            <div class="strength">
+                <div class="front">
+                    <span class="c-beige big-medium-size"><i class='bx bx-code-alt'></i>Front-End Development</span>
+                    <ul class="medium-size c-d24816">
+                        <li><i class='bx bxl-html5  f-large'></i></li>
+                        <li><i class='bx bxl-css3  f-large' ></i></li>
+                        <li><i class='bx bxl-javascript  f-large' ></i></li>
+                        <li><i class='bx bxl-react  f-large' ></i></li>
+                        <li><i class='bx bxl-bootstrap  f-large' ></i></li>
+                        <li><i class='bx bxl-github  f-large' ></i></li>
+                    </ul>
+                </div>
+                <div class="back">
+                    <span class="c-beige big-medium-size"><i class='bx bx-folder-minus'></i>Back-End Development</span>
+                    <ul class="my-staff medium-size c-d24816">
+                        <li><i class='bx bxl-nodejs  f-large' ></i></li>
+                        <li><i class='bx bxl-postgresql  f-large' ></i></li>
+                        <li><i class='bx bxl-python  f-large' ></i></li>
+                        <li><i class='bx bxl-django  f-large' ></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cv">
+                <button class="button"><a href="./pdf/Cristian Solano Frontend DWF.pdf">Download CV</a></button>
+            </div>
+    
+            
+        </div>
+    </section>
 
+  <section class="form" id="form"> 
+  </section>
+
+  <footer class="footer">
+      <h4 class="c-white small-size ">Social Media</h4>
+      <ul class="social">
+          <li><a href="https://wa.me/+573014088482?text=¡Estoy+interesado!"><i class='bx bxl-whatsapp color'></i></a></li>
+          <li><a href="https://github.com/cristian-solano"><i class='bx bxl-github'></i></a></li>
+          <li><a href="https://www.linkedin.com/in/cristian-andres-solano-maldonado-0707881b4"><i class='bx bxl-linkedin color'></i></a></li>
+          <li><a href="https://wa.me/+573014088482?text=¡Estoy+interesado!"><i class='bx bx-phone color'></i></a></li>
+      </ul>
+      <p class="small-size c-white">Cristian Andrés Solano | Web Developer</p>
   </footer>
+  <script src="./js/main.js"></script>
   
 </body>
 </html>
+
