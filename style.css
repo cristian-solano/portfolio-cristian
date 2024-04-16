@@ -12,7 +12,7 @@ body {
 
 }
 
-body.dark{
+body.dark {
 background-color: #302f2f;
 opacity: 0.8;
 color: #e9dac1;
@@ -262,8 +262,8 @@ a {
     justify-content: center;
     align-content: center;
     display: grid;
-    grid-template-columns: 400px 400px;
-    grid-template-rows: 400px 400px;
+    grid-template-columns: 400px 400px ;
+    grid-template-rows: 400px 400px 400px;
     grid-auto-rows: 100px;
     gap: 30px;
 }
@@ -373,6 +373,11 @@ a {
     grid-template-columns: 100px 100px;
     grid-template-rows: 100px 100px;
     gap: 100px;
+    transition: 1s;
+}
+
+.content-contact > .strength > .back > ul li {
+    transition: 1s;
 }
 
 .content-contact > .strength > .front > ul > li {
@@ -380,6 +385,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 1s;
 }
 
 
@@ -391,8 +397,7 @@ a {
 
 .content-contact > .strength > .front > ul > li:hover,
 .content-contact > .strength > .back > ul > li:hover {
-    text-shadow: transparent;
-    color: transparent;
+    transform: scale(1.2);
 }
 
 
